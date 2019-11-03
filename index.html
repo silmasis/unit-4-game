@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>CrystalCollector</h1>
     </div>
 
-    <div>
+    <div class="container">
         <p>You will be gien a random number at the start of the game.</p>
 
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of pointsto you total
@@ -29,9 +29,9 @@
 
     </div>
 
-    <div id="randomNumber"></div>
+    <div class="container" id="randomNumber"></div>
 
-    <div id="win-loss-tracker">
+    <div class="container" id="win-loss-tracker">
 
         <div>
             <h3>Wins: </h3>
@@ -45,18 +45,21 @@
 
     </div>
 
-    <div>
-        <img src="assets/images/redrupee.png" alt="Red Crystal">
-        <img src="assets/images/bluerupee.png" alt="Blue Crystal">
-        <img src="assets/images/yellowrupee.png" alt="Yellow Crystal">
-        <img src="assets/images/silverrupee.png" alt="White Crystal">
+    <div class="container">
+        <img id="Red" src="assets/images/redrupee.png" alt="Red Crystal">
+        <img id="Blue" src="assets/images/bluerupee.png" alt="Blue Crystal">
+        <img id="Yellow" src="assets/images/yellowrupee.png" alt="Yellow Crystal">
+        <img id="White" src="assets/images/silverrupee.png" alt="White Crystal">
     </div>
 
-    <div>
+    <div class="container">
         <h3>Your total score is:</h3>
     </div>
 
-    <div id="total"></div>
+    <div class="container" id="total"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 
